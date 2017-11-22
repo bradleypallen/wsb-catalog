@@ -14,14 +14,19 @@ Early days here. Things will be in flux.
 
 ### System
 
-* Build a python module out of the code in the notebook to support a single-button-press to go from CSV to Markdown.
-* Rig up continuous integration so that changes to the CSV will trigger a rebuild of the Markdown file. I have an idea of how to do that using AWS Lambda and Github Webhooks...
-* Generate linked data from the CSV in JSON-LD and deploy it to Github Pages.
-* Add individual pages for each catalog item using the larger images. Once we have these, I'll print QR code stickers encoding the page URLs and place them on the items-in-hand.
+* Build a python module out of the code in the notebook to support a single call to go from CSV to Markdown.
+* Rig up continuous integration so that changes to the repo will trigger a rebuild of the Markdown file. I have an idea of how to do that using AWS Lambda and Github Webhooks...
+* Add individual pages for each catalog item incorporating the larger images and linked data embedded in JSON-LD format. 
+* Generate QR codes with links to the page URLs, print them as stickers and place them on the items-in-hand.
 
 ### Data
 
-* Fix the dc:publisher metadata for Schottlaender "C" type items.
+* Fix the dc:publisher values for Schottlaender "C" type items.
+* Mine the descriptions for improved dc:creator attributions.
+* Figure out how to represent the relations implied by an association copy.
+* Determine how to link dc:creator, dc:publisher into DBPedia.
+* Capture higher-precision ISO8601 dc:date values for Schottlaender "C" type items.
+* Investigate defining formal value spaces for dc:bibliographicCitation based of Schottlaender, Shoaf and M&M schemes.
 
 ## License
 MIT.
