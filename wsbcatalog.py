@@ -4,9 +4,9 @@ from PIL import Image
 
 class WSBCatalog():
 
-    def __init__(self, file='../data/wsb-catalog.csv'):
+    def __init__(self, file='data/wsb-catalog.csv'):
         self._citation_schemes = { 'schottlaender/4.0/': 'Schottlaender ', 'maynard-and-miles/': 'Maynard & Miles ', 'shoaf/': 'Shoaf ' }
-        self._items = pd.read_csv('../data/wsb-catalog.csv')
+        self._items = pd.read_csv('data/wsb-catalog.csv')
         self._items = self._items.fillna('')
         self._add_missing_identifiers()
         self._add_missing_thumbnails()
@@ -19,17 +19,17 @@ class WSBCatalog():
         self._items = items
 
     # write catalog data to file
-    def to_csv(self, file='../data/wsb-catalog.csv'):
+    def to_csv(self, file='data/wsb-catalog.csv'):
         self._items.to_csv(file, index=False)
 
     # write catalog Markdown
-    def to_markdown(self, file='../docs/index.md'):
+    def to_markdown(self, file='docs/index.md'):
         with open(file, 'w') as outfile:
             for line in self._markdown_table():
                 outfile.write(line + '\n')
 
     # write both data and Markdoen
-    def build(self, csv_file='../data/wsb-catalog.csv', md_file='../docs/index.md'):
+    def build(self, csv_file='data/wsb-catalog.csv', md_file='docs/index.md'):
         self.to_csv(csv_file)
         self.to_markdown(md_file)
 
@@ -84,8 +84,8 @@ class WSBCatalog():
     # Generate thumbnails from images
     def _add_missing_thumbnails(self):
         size = (300, 300)
-        for infile in glob.glob("../images/*.jpg"):
-            outfile = "../docs/thumbnails/" + os.path.split(infile)[1]
+        for infile in glob.glob("images/*.jpg"):
+            outfile = "docs/thumbnails/" + os.path.split(infile)[1]
             try:
                 im = Image.open(infile)
                 im.thumbnail(size)
