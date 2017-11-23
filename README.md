@@ -14,8 +14,7 @@ Early days here. Things will be in flux.
 
 ### System
 
-* Build a python module out of the code in the notebook to support a single call to go from CSV to Markdown.
-* Rig up continuous integration so that changes to the repo will trigger a rebuild of the Markdown file. I have an idea of how to do that using AWS Lambda and Github Webhooks...
+* Rig up continuous integration so that changes to the repo will trigger a build. I have an idea of how to do that using AWS Lambda and Github Webhooks...
 * Add individual pages for each catalog item incorporating the larger images and linked data embedded in JSON-LD format. 
 * Generate QR codes with links to the page URLs, print them as stickers and place them on the items-in-hand.
 
