@@ -16,7 +16,6 @@ Early days here. Things will be in flux.
 
 ### System
 
-* Rig up continuous integration so that changes to the repo will trigger a build. I have an idea of how to do that using AWS Lambda and Github Webhooks...
 * Add individual pages for each catalog item incorporating the larger images and linked data embedded in JSON-LD format. 
 * Generate QR codes with links to the page URLs, print them as stickers and place them on the items-in-hand.
 
