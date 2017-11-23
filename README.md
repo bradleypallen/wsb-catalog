@@ -1,5 +1,7 @@
 # wsb-catalog
 
+![Travis CI Build Status](https://travis-ci.org/bradleypallen/wsb-catalog.svg?branch=master)
+
 ## Overview
 
 A project to make a web-hosted catalog of my William S. Burroughs collection using the latest and greatest shiny object tech, at least that which I can wrap my head around. A sandbox for figuring out how to build Web catalog resources, if you will. Ultimately this might lead to a framework for the easy creation of digital humanities linked data resources using Github as a platform. We shall see.
