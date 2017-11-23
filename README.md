@@ -8,7 +8,7 @@ A project to make a web-hosted catalog of my William S. Burroughs collection usi
 
 ## Current status
 
-A simple one-page catalog rendered from linked-data-ish data managed in a CSV file is up and running at [http://www.bradleypallen.org/wsb-catalog/](http://www.bradleypallen.org/wsb-catalog/). Basically, we have a bunch of Jupyter notebooks that I can run to massage the CSV data into a Markdown table configured to be served up using Github Pages in a minimalist fashion. I kinda like it.
+A simple one-page catalog rendered from linked-data-ish data managed in a CSV file is up and running at [http://www.bradleypallen.org/wsb-catalog/](http://www.bradleypallen.org/wsb-catalog/). Basically, we have a Python module that massages the CSV data into a Markdown table configured to be served up using Github Pages in a minimalist fashion. I kinda like it.
 
 ## Roadmap
 
