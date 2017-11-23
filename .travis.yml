@@ -7,3 +7,12 @@ install:
 # command to run tests
 script:
   - python wsbcatalog.py
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: 
+    - "docs/index.md"
+    - "data/wsb-catalog.csv"
+  skip_cleanup: true
+  on:
+    tags: true
