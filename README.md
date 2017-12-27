@@ -21,12 +21,10 @@ Early days here. Things will be in flux.
 
 ### Data
 
-* Fix the dc:publisher values for Schottlaender "C" type items.
 * Mine the descriptions for improved dc:creator attributions.
 * Figure out how to represent the relations implied by an association copy.
 * Determine how to link dc:creator, dc:publisher into DBPedia.
-* Capture higher-precision ISO8601 dc:date values for Schottlaender "C" type items.
-* Investigate defining formal value spaces for dc:bibliographicCitation based of Schottlaender, Shoaf and M&M schemes.
+* Investigate defining formal value spaces for dc:bibliographicCitation based on Schottlaender, Shoaf and M&M schemes.
 
 ## License
 MIT.
