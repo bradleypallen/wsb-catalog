@@ -2,7 +2,7 @@
 |---|---|---|---|
 |![junkie-1](thumbnails/junkie-1.jpg)|William S. Burroughs|Junkie|New York: Ace Books, Inc., 1953. First. Not as much yellowing as is typical. Schottlaender A1a, Maynard & Miles A1a.|
 |![junkie-2](thumbnails/junkie-2.jpg)|William S. Burroughs|Junkie|New York: Ace Books, Inc., 1953. First. Signed by Burroughs, dated "Nov. 6, 1985". Yellowing and fragile, bookseller's sticker on inside front cover. Schottlaender A1a, Maynard & Miles A1a.|
-|[![Junkie](thumbnails/junkie-3.jpg)](junkie-3.md)|William S. Burroughs|Junkie|London: Digit Books, 1957. First English. In custom clamshell case. Schottlaender A1b, Maynard & Miles A1b.|
+|[![Junkie](thumbnails/junkie-3.jpg)](pages/junkie-3.html)|William S. Burroughs|Junkie|London: Digit Books, 1957. First English. In custom clamshell case. Schottlaender A1b, Maynard & Miles A1b.|
 |![british-journal-of-addiction-5-1](thumbnails/british-journal-of-addiction-5-1.jpg)|William S. Burroughs|British Journal of Addiction 53(2)|n.p., 1957-01. Offprint of Burroughs' article "Letter From A Master Addict To Dangerous Drugs." Limited to 50 copies. Signed by Burroughs, inscribed to Nelson Lyon "For Nelson, William S. Burroughs October 20, 1992." With postmarked envelope with William Burroughs Communications return address. Schottlaender C3, Maynard & Miles C1b.|
 |![chicago-review-12-3-1](thumbnails/chicago-review-12-3-1.jpg)|William S. Burroughs|Chicago Review 12(3)|n.p., 1958. Soiled and worn on the spine. Schottlaender C5, Maynard & Miles C5.|
 |![the-naked-lunch-1](thumbnails/the-naked-lunch-1.jpg)|William S. Burroughs|The Naked Lunch|Paris: The Olympia Press, 1959. First. Signed by Burroughs. With slight chipping and tearing on dust jacket spine. Schottlaender A2a, Maynard & Miles A2a.|
