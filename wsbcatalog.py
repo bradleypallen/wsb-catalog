@@ -28,7 +28,7 @@ class WSBCatalog():
             for line in self._markdown_table():
                 outfile.write(line + '\n')
 
-    # write both data and Markdoen
+    # write both data and Markdown
     def build(self, csv_file='data/wsb-catalog.csv', md_file='docs/index.md'):
         self.to_csv(csv_file)
         self.to_markdown(md_file)
@@ -84,14 +84,16 @@ class WSBCatalog():
     # Generate thumbnails from images
     def _add_missing_thumbnails(self):
         size = (300, 300)
-        for infile in glob.glob("images/*.jpg"):
-            outfile = "docs/thumbnails/" + os.path.split(infile)[1]
-            try:
-                im = Image.open(infile)
-                im.thumbnail(size)
-                im.save(outfile, "JPEG")
-            except IOError:
-                print("cannot create thumbnail for", infile)
+        for infile in glob.glob("docs/assets/images/*.jpg"):
+            outfile = "docs/assets/thumbnails/" + os.path.split(infile)[1]
+            if not glob.glob(outfile):
+                try:
+                    im = Image.open(infile)
+                    im.thumbnail(size)
+                    im.save(outfile, "JPEG")
+                    print('Added new thumbnail:', outfile)
+                except IOError:
+                    print("Cannot create thumbnail for", infile)
 
     # Sort items by dc:date and dc:bibliographicCitation
     def _sort(self):
@@ -102,12 +104,17 @@ class WSBCatalog():
     # Generate Markdown from dataframe
     def _markdown_table(self):
         items = pd.DataFrame(self._items, copy=True)
-        items['image'] = items['identifier'].astype('str').apply(lambda x: 'thumbnails/{}.jpg'.format(x))
+        items['image'] = items['identifier'].astype('str').apply(lambda x: 'assets/thumbnails/{}.jpg'.format(x))
+        items['itemPage'] = items['identifier'].astype('str').apply(lambda x: 'pages/{}.html'.format(x))
         items = items.fillna('')
         items['bibliographicCitation'] = items['bibliographicCitation'].astype('str').apply(lambda x: self._format_bibliographicCitation(x))
         items['entry'] = np.where(items['publisher'] == '', 'n.p.', items['publisher'])
         items['entry'] = items.apply(lambda x: '{}, {}. {} {}'.format(x['entry'], x['date'], x['description'], x['bibliographicCitation']), axis=1)
-        items['mdTableRow'] = items.apply(lambda x: '|![{}]({})|{}|{}|{}|'.format(x['identifier'], x['image'], x['creator'], x['title'], x['entry']), axis=1)
+        items['mdTableRow'] = items.apply(lambda x: '|[![{}]({})]({})|{}|{}|{}|'.format(x['title'], x['image'], x['itemPage'], x['creator'], x['title'], x['entry']), axis=1)
+
+
+# [![Junkie](assets/thumbnails/junkie-3.jpg)](pages/junkie-3.html)
+
         table_header = ['|image|creator|title|description|', '|---|---|---|---|']
         table_body = pd.Series(items['mdTableRow']).tolist()
         table = table_header + table_body
