@@ -2,4 +2,4 @@
 
 London: Digit Books, 1957. First English. In custom clamshell case. Schottlaender A1b, Maynard & Miles A1b.
 
-![Junkie](../images/junkie-3.jpg)
+![Junkie](assets/images/junkie-3.jpg)
