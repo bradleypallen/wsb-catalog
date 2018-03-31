@@ -11,6 +11,7 @@ class WSBCatalog():
         self._add_missing_identifiers()
         self._add_missing_thumbnails()
         self._sort()
+        self._generate_markdown()
 
     def get_items(self):
         return self._items
@@ -20,17 +21,23 @@ class WSBCatalog():
 
     # write catalog data to file
     def to_csv(self, file='data/wsb-catalog.csv'):
-        self._items.to_csv(file, index=False)
+        items = self._items[['identifier', 'creator', 'title', 'publisher', 'date', 'bibliographicCitation', 'description']]
+        items.to_csv(file, index=False)
 
     # write catalog Markdown
     def to_markdown(self, file='docs/index.md'):
+        # write index.md
         with open(file, 'w') as outfile:
-            for line in self._markdown_table():
+            for line in self._index_markdown():
                 outfile.write(line + '\n')
+        # for each item write its item page
+        for index, item in self._items.iterrows():
+            with open('docs/{}.md'.format(item['itemPage']), 'w') as outfile:
+                outfile.write(item['mdItemPage'])
 
     # write both data and Markdown
     def build(self, csv_file='data/wsb-catalog.csv', md_file='docs/index.md'):
-        self.to_csv(csv_file)
+        #self.to_csv(csv_file)
         self.to_markdown(md_file)
 
     def _pad_primary_cite_code(self, cite):
@@ -102,23 +109,27 @@ class WSBCatalog():
         self._items = self._items[['identifier', 'creator', 'title', 'publisher', 'date', 'bibliographicCitation', 'description']]
 
     # Generate Markdown from dataframe
-    def _markdown_table(self):
+    def _generate_markdown(self):
         items = pd.DataFrame(self._items, copy=True)
-        items['image'] = items['identifier'].astype('str').apply(lambda x: 'assets/thumbnails/{}.jpg'.format(x))
-        items['itemPage'] = items['identifier'].astype('str').apply(lambda x: 'pages/{}.html'.format(x))
+        items['image'] = items['identifier'].astype('str').apply(lambda x: 'assets/images/{}.jpg'.format(x))
+        items['thumbnail'] = items['identifier'].astype('str').apply(lambda x: 'assets/thumbnails/{}.jpg'.format(x))
+        items['itemPage'] = items['identifier'].astype('str').apply(lambda x: 'pages/{}'.format(x))
         items = items.fillna('')
         items['bibliographicCitation'] = items['bibliographicCitation'].astype('str').apply(lambda x: self._format_bibliographicCitation(x))
         items['entry'] = np.where(items['publisher'] == '', 'n.p.', items['publisher'])
         items['entry'] = items.apply(lambda x: '{}, {}. {} {}'.format(x['entry'], x['date'], x['description'], x['bibliographicCitation']), axis=1)
-        items['mdTableRow'] = items.apply(lambda x: '|[![{}]({})]({})|{}|{}|{}|'.format(x['title'], x['image'], x['itemPage'], x['creator'], x['title'], x['entry']), axis=1)
+        items['mdTableRow'] = items.apply(lambda x: '|[![{}]({})]({}.html)|{}|{}|{}|'.format(x['title'], x['thumbnail'], x['itemPage'], x['creator'], x['title'], x['entry']), axis=1)
+        items['mdItemPage'] = items.apply(lambda x: '## {}. {}.\n\n{}\n\n![{}](../{})\n'.format(x['creator'], x['title'], x['entry'], x['title'], x['image']), axis=1)
+        self._items = items
 
-
-# [![Junkie](assets/thumbnails/junkie-3.jpg)](pages/junkie-3.html)
-
+    def _index_markdown(self):
         table_header = ['|image|creator|title|description|', '|---|---|---|---|']
-        table_body = pd.Series(items['mdTableRow']).tolist()
+        table_body = pd.Series(self._items['mdTableRow']).tolist()
         table = table_header + table_body
         return table
+
+    def _item_page_markdown(self):
+        return pd.Series(self._items['mdItemPage']).tolist()
 
 if __name__ == "__main__":
     print('Building catalog...')
