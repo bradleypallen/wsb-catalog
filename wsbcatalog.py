@@ -24,7 +24,7 @@ class WSBCatalog():
         items = self._items[['identifier', 'creator', 'title', 'publisher', 'date', 'bibliographicCitation', 'description']]
         items.to_csv(file, index=False)
 
-    # write catalog Markdown
+    # write catalog Markdown to file
     def to_markdown(self, file='docs/index.md'):
         # write index.md
         with open(file, 'w') as outfile:
@@ -34,11 +34,6 @@ class WSBCatalog():
         for index, item in self._items.iterrows():
             with open('docs/{}.md'.format(item['itemPage']), 'w') as outfile:
                 outfile.write(item['mdItemPage'])
-
-    # write both data and Markdown
-    def build(self, csv_file='data/wsb-catalog.csv', md_file='docs/index.md'):
-        #self.to_csv(csv_file)
-        self.to_markdown(md_file)
 
     def _pad_primary_cite_code(self, cite):
         primary_code = cite.split(', ')[0]
@@ -115,9 +110,9 @@ class WSBCatalog():
         items['thumbnail'] = items['identifier'].astype('str').apply(lambda x: 'assets/thumbnails/{}.jpg'.format(x))
         items['itemPage'] = items['identifier'].astype('str').apply(lambda x: 'pages/{}'.format(x))
         items = items.fillna('')
-        items['bibliographicCitation'] = items['bibliographicCitation'].astype('str').apply(lambda x: self._format_bibliographicCitation(x))
+        items['prettyBibliographicCitation'] = items['bibliographicCitation'].astype('str').apply(lambda x: self._format_bibliographicCitation(x))
         items['entry'] = np.where(items['publisher'] == '', 'n.p.', items['publisher'])
-        items['entry'] = items.apply(lambda x: '{}, {}. {} {}'.format(x['entry'], x['date'], x['description'], x['bibliographicCitation']), axis=1)
+        items['entry'] = items.apply(lambda x: '{}, {}. {} {}'.format(x['entry'], x['date'], x['description'], x['prettyBibliographicCitation']), axis=1)
         items['mdTableRow'] = items.apply(lambda x: '|[![{}]({})]({}.html)|{}|{}|{}|'.format(x['title'], x['thumbnail'], x['itemPage'], x['creator'], x['title'], x['entry']), axis=1)
         items['mdItemPage'] = items.apply(lambda x: '## {}. {}.\n\n{}\n\n![{}](../{})\n'.format(x['creator'], x['title'], x['entry'], x['title'], x['image']), axis=1)
         self._items = items
@@ -134,5 +129,5 @@ class WSBCatalog():
 if __name__ == "__main__":
     print('Building catalog...')
     catalog = WSBCatalog()
-    catalog.build()
+    catalog.to_markdown()
     print('Done.')

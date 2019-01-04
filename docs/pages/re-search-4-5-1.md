@@ -1,5 +1,5 @@
-## William S. Burroughs, Throbbing Gristle, Brion Gysin, V. Vale. Re/Search 4/5.
+## William S. Burroughs, Throbbing Gristle, Brion Gysin, V. Vale. RE/Search 4/5.
 
-n.p., 1982. San Francisco, CA: Re/Search Publications, 1982. Schottlaender C523a.
+San Francisco, CA: RE/Search Publications, 1982. First. Softbound. Schottlaender C523a.
 
-![Re/Search 4/5](../assets/images/re-search-4-5-1.jpg)
+![RE/Search 4/5](../assets/images/re-search-4-5-1.jpg)
