@@ -1,0 +1,21 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:in-search-of-yage-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:itemOf abri:A77 ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "First. Per James Musser: \"Contains three original b&w photographs of William Burroughs in the Amazon jungle in the 1950s. The photographs were taken by an unknown person who accompanied Burroughs on his South American expedition to research the use of yage by local curanderos, a journey chronicled in The Yage Letters. They show Burroughs in his pith helmet and safari clothes, in one photo wielding a machete, in another posing with a long rifle, and in the third he's standing with two native children. The 5\" x 7\" photographs are corner-mounted on paper that simulates the bark of the Banisteria caapi vine. The pages are bound into covers of richly textured, sumptuous hand-made paper bound at the spine with brass screws. The booklet was designed and hand-assembled by Johnny Brewton of X-Ray Book Co. in an edition limited to only 26 lettered copies. The photographs, two of which are previously unpublished, were reproduced from the original negatives and are the only prints to be made from these negatives. This first publication from Skyline Books is a nice companion to The Yage Letters, providing an intriguing look at William Burroughs as explorer and ethnobotanist. As new.\"  Lettered R of 26." ] .
+

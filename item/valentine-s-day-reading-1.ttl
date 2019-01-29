@@ -1,0 +1,21 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:valentine-s-day-reading-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:itemOf abri:A16 ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "First. Per James Musser: \"Program distributed on the occasion of Burroughs' appearance at the East End Theatre in New York, 1965, for a Valentine's Day reading sponsored by The American Theatre for Poets.  Prints \"Transcript of Dutch Schultz's Last Words\" and \"The Coldspring News.\"  This is Lawrence Ferlinghetti's copy with the notation \"Save for CLJ #3\" in Ferlinghetti's hand.  Ferlinghetti was apparently going to include this piece in City Lights Journal #3, but decided against it.  Signed by William Burroughs.\" These are pages 1 through 6, lacking the cover sheet and page 7 (\"The Coldspring News\")." ] .
+

@@ -1,0 +1,21 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:junkie-2 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:itemOf abri:A1a ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "First. Signed by Burroughs, dated \"Nov. 6, 1985\". Yellowing and fragile, bookseller's sticker on inside front cover." ] .
+

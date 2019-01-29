@@ -1,0 +1,22 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:burroughs-ii-die-wilden-boys-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:itemOf abri:D137,
+        abri:D98 ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "First. Per James Musser: \"The first German edition of The Wild Boys (and presumably first German Port of Saints).  Tipped-in frontis illustration by S. Clay Wilson whose full-page plates appear throughout the book.  BURROUGHS' PERSONAL COPY SPECIALLY BOUND for him by the publisher in DIAMONDBACK RATTLESNAKE SKIN with Burroughs' initials stamped to the spine. Signed on the title page by Burroughs and also by S. Clay Wilson who dated his signature 1996.  (Wilson's person copy was bound in Niger goat and snakeskin--so depending on how you look at it each copy is unique---or you can say there were two specially bound author copies bound by the publisher.)  Fine in slightly used slightly soiled folding chemise covered in the same silk they used for the endpapers.\"" ] .
+

@@ -1,0 +1,21 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:the-job-4 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:itemOf abri:H9c ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "First English. Personal copy of Allen Ginsberg, signed by Ginsberg and Burroughs. Inscribed by Burroughs on title page \"For Allen a co worker of many years with respect for his achievements in the cause of freedom William Burroughs 1980\". Ownership signature of Ginsberg on obverse of leaf before title page, with notation at bottom \"Signed June 12, 1980 by WSB.\" Publisher's slip (\"with compliments from Tom Maschler Jonathan Cape Ltd. 30 Bedford Square London SW1\") and postcard (with picture of Ginsberg and Peter Orlovsky copyright Elsa Dorfman and the Witkin Gallery) laid in." ] .
+

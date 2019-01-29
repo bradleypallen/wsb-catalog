@@ -1,0 +1,20 @@
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bpacol: <https://wsburroughs.link/bradleypallen/item/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bpacol:william-burroughs-archive-cont-1 a bf:Item,
+        bf:Text ;
+    bf:heldBy [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "collector" ] ;
+    bf:note [ a bf:Note,
+                arm:SubjectNote ;
+            rdf:value "Richard Aaron's copy of the contract (in German) for the sale of Burroughs' literary archive, as described in \"A Descriptive Catalogue of the William S. Burroughs Archive,\" to Roberto Altmann. Signed by Burroughs, Brion Gysin, Richard Aaron and Altmann, and dated 23 June 1973. This is the archive now in the Berg Collection of the New York Public Library." ] .
+
