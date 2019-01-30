@@ -16,6 +16,6 @@ bpacol:william-s-burroughs-a-biblio-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I5 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs. Without dust jacket as issued." ] .
 

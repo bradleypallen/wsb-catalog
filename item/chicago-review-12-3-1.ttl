@@ -16,6 +16,6 @@ bpacol:chicago-review-12-3-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C5 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Soiled and worn on the spine." ] .
 

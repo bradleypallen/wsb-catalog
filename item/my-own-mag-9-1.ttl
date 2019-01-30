@@ -16,6 +16,6 @@ bpacol:my-own-mag-9-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C89 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

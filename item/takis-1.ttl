@@ -16,6 +16,6 @@ bpacol:takis-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G89 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

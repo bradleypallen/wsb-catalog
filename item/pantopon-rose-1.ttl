@@ -16,6 +16,6 @@ bpacol:pantopon-rose-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A74 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and numbered by Burroughs, number 40 of 60." ] .
 

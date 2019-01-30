@@ -16,6 +16,6 @@ bpacol:my-own-mag-13-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C115 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Limited. Numbered 398 of 500." ] .
 

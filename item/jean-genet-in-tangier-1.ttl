@@ -15,6 +15,6 @@ bpacol:jean-genet-in-tangier-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs.  Contains forward by Burroughs." ] .
 

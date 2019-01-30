@@ -16,6 +16,6 @@ bpacol:paper-cloud-thick-pages-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B20 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In laminated pictorial cardboard hardcover." ] .
 

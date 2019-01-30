@@ -15,6 +15,6 @@ bpacol:submission-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and De Sana, dated \"1985\" by De Sana. Wrappers scuffed and worn at edges." ] .
 

@@ -16,6 +16,6 @@ bpacol:painting-guns-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A67 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In cream wrappers. Cover variant with monkey face surrounded by half circle on back, price tag on back, small tear to lower front." ] .
 

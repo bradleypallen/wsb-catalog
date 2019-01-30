@@ -16,6 +16,6 @@ bpacol:call-me-burroughs-a-life-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H31 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Barry Miles' biography of Burroughs." ] .
 

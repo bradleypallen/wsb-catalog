@@ -16,6 +16,6 @@ bpacol:sinki-s-sauna-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A52a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, numbered 102 of 500." ] .
 

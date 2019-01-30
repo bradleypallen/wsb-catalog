@@ -16,6 +16,6 @@ bpacol:ruby-editions-portfolio-1-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B2 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs on his contribution \"Une Poeme Moderne\", number 18 of 100. Also contains broadsides by Cozette de Charmoy and Henri Chopin. Tape has lost adhesive on portfolio folder." ] .
 

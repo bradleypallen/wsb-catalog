@@ -16,6 +16,6 @@ bpacol:william-burroughs-the-algebr-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I38a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

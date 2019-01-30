@@ -16,6 +16,6 @@ bpacol:blade-runner-a-movie-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A41a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, numbered 63 of 100." ] .
 

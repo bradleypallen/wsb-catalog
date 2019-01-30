@@ -16,6 +16,6 @@ bpacol:antaeus-2-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C302 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Maynard and Miles C304. Signed by Burroughs at entry." ] .
 

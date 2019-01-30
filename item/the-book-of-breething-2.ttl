@@ -16,6 +16,6 @@ bpacol:the-book-of-breething-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A31a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs. One of 350, unnumbered, in wrappers. Some fading of print on front cover." ] .
 

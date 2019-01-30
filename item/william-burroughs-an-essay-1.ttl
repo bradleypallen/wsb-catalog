@@ -16,6 +16,6 @@ bpacol:william-burroughs-an-essay-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H2 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Ansen and Burroughs, number 9 of 50." ] .
 

@@ -16,6 +16,6 @@ bpacol:you-re-the-guy-i-want-to-share-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E36a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. GPS 020-021. Two 12\" vinyl records in gatefold jacket." ] .
 

@@ -15,6 +15,6 @@ bpacol:portrait-of-burroughs-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Portrait of Burroughs in casual shirt sitting, facing camera, with wry expression on face. Signed \"By Nelson Lyon, WSB '89\". Creased at lower right corner." ] .
 

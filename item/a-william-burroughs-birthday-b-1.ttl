@@ -16,6 +16,6 @@ bpacol:a-william-burroughs-birthday-b-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G17 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In stapled wrappers." ] .
 

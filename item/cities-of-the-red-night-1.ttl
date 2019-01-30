@@ -16,6 +16,6 @@ bpacol:cities-of-the-red-night-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A47a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs." ] .
 

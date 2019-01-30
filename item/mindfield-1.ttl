@@ -15,6 +15,6 @@ bpacol:mindfield-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. A book of poems by Gregory Corso, with forwards by Burroughs and Allen Ginsberg. Letter O of a limited edition of 26 signed by the author, as well as Burroughs and Ginsberg. As issued in red slip case." ] .
 

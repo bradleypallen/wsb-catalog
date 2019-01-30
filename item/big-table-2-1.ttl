@@ -16,6 +16,6 @@ bpacol:big-table-2-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C8 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

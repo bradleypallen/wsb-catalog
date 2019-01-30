@@ -16,6 +16,6 @@ bpacol:naked-lunch-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A2e ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Second printing." ] .
 

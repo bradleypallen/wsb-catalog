@@ -16,6 +16,6 @@ bpacol:les-lettres-du-yage-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:D143 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First French. Presentation copy  inscribed by Burroughs \"For Mary Beach and Claude Pelieu William Burroughs\" , also signed by Allen Ginsberg \"Allen Ginsberg Ah.\"" ] .
 

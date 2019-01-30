@@ -16,6 +16,6 @@ bpacol:search-destroy-10-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C455 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Contains \"Some Last Words with Hombre Invisible.\" Signed by Burroughs, inscribed \"William Burroughs for Burt Bretton.\" Some yellowing." ] .
 

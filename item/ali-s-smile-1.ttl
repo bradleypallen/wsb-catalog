@@ -16,6 +16,6 @@ bpacol:ali-s-smile-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A23a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and numbered by Burroughs, 39 of 99. Unfortunately missing the original box and record." ] .
 

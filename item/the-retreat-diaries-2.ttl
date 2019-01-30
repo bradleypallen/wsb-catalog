@@ -16,6 +16,6 @@ bpacol:the-retreat-diaries-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A35 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and Allen Ginsberg. Slightly soiled." ] .
 

@@ -16,6 +16,6 @@ bpacol:nova-express-4 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A10c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First English. With wording on page 4 blacked out with black magic marker." ] .
 

@@ -16,6 +16,6 @@ bpacol:the-outsider-1-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C33 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

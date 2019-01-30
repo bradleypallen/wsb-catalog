@@ -16,6 +16,6 @@ bpacol:rhinozeros-7-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C45 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

@@ -16,6 +16,6 @@ bpacol:electronic-revolution-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A24a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

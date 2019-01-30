@@ -16,6 +16,6 @@ bpacol:from-the-western-lands-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A61 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, one of 750. Broadside." ] .
 

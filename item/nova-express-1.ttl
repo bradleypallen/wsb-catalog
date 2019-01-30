@@ -16,6 +16,6 @@ bpacol:nova-express-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A10a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Tear on spine of dust jacket." ] .
 

@@ -16,6 +16,6 @@ bpacol:am-here-books-catalogue-5-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E14 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Lists 37 Burroughs items. Contains 7\" vinyl E.P. record of Burroughs reading \"The Last Words of Hassan-I-Sabbah\"." ] .
 

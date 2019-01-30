@@ -16,6 +16,6 @@ bpacol:dead-city-radio-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E7 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Single CD, 17 tracks of readings from various works, with various backing musicians. Produced by Nelson Lyon, who became a good friend of Burroughs and amassed a significant collection of Burroughs and Beats material, sold at auction in 1999, and some items of which have found their way into my collection." ] .
 

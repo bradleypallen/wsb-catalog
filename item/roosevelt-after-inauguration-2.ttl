@@ -16,6 +16,6 @@ bpacol:roosevelt-after-inauguration-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A12 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and Allen Ginsberg, dated \"1978\" by Ginsberg." ] .
 

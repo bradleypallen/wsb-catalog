@@ -15,6 +15,6 @@ bpacol:re-search-8-9-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Contains essays \"Mythmaker of the 20th Century\" and \"Preface to The Atrocity Exhibition\" by Burroughs." ] .
 

@@ -15,6 +15,6 @@ bpacol:x-ray-man-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Per Eric Shoaf, \"untitled three-color broadside (red, blue & purple on white background). 9.5 x 13 inches silkscreen print with small embossed lizard figure in lower right corner.\" Signed by Burroughs. Limited edition printing, number 136 of 178. In original matte and frame." ] .
 

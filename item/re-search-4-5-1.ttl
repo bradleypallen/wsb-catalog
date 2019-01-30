@@ -16,6 +16,6 @@ bpacol:re-search-4-5-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C523a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Softbound." ] .
 

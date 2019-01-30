@@ -16,6 +16,6 @@ bpacol:william-burroughs-and-the-secr-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I28 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Hardbound in dustjacket." ] .
 

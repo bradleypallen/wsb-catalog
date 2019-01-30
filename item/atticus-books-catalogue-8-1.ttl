@@ -16,6 +16,6 @@ bpacol:atticus-books-catalogue-8-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I1 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, numbered 39 of 50. Lists 360 Burroughs items." ] .
 

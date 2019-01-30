@@ -17,6 +17,6 @@ bpacol:my-own-mag-11-1 a bf:Item,
     bf:itemOf abri:C110,
         abri:C113 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

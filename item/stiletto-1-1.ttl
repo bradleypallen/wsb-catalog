@@ -16,6 +16,6 @@ bpacol:stiletto-1-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C603 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Contains 4 selections from \"Interzone\". With insert reproduction of \"Twilight's Last Gleaming\" painting by Burroughs. In  plastic bag with metallic wrappers." ] .
 

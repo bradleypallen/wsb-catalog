@@ -16,6 +16,6 @@ bpacol:painting-guns-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A67 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In orange wrappers. Cover variant with standing monkey with staff on back." ] .
 

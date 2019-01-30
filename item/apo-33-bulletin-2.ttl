@@ -16,6 +16,6 @@ bpacol:apo-33-bulletin-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A13c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Third. Second printing of Beach edition." ] .
 

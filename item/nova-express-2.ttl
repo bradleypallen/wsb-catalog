@@ -16,6 +16,6 @@ bpacol:nova-express-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A10a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, inscribed \"For Gerald Holsinger with all best wishes William S. Burroughs July 27, 1965 New York\"." ] .
 

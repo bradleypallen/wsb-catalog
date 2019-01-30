@@ -16,6 +16,6 @@ bpacol:ali-s-smile-naked-scientology-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A37a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Wear on corners and creases in spine." ] .
 

@@ -16,6 +16,6 @@ bpacol:rub-out-the-words-the-letters-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H14 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

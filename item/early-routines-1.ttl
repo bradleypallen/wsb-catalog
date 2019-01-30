@@ -16,6 +16,6 @@ bpacol:early-routines-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A48a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and David Hockney, who did Burroughs' portrait on front cover. Lettered Q of 26, in rice paper dust jacket." ] .
 

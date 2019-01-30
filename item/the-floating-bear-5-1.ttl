@@ -16,6 +16,6 @@ bpacol:the-floating-bear-5-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C24 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

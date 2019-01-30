@@ -16,6 +16,6 @@ bpacol:electronic-revolution-prepubli-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A24a1 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. The prepublication announcement for Electronic Revolution (Maynard and Miles A21a)." ] .
 

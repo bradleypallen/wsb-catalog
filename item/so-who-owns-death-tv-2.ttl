@@ -16,6 +16,6 @@ bpacol:so-who-owns-death-tv-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A17a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First (variant). Some creasing in lower left hand corner and close to spine." ] .
 

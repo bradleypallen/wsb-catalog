@@ -16,6 +16,6 @@ bpacol:queer-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A59a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

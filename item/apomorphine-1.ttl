@@ -16,6 +16,6 @@ bpacol:apomorphine-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A20 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Per James Musser: \"Softbound (no hardbound issued). First edition. Prints \"Apomorphine\" in it's entirety (in three-column style), as well as \"Day the Records Went Up,\" \"Coldspring News,\" \"Parenthetically 7 Hertz,\" and more. Among the scarcer Burroughs items. Fine. (French text.)\"" ] .
 

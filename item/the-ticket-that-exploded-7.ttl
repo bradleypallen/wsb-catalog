@@ -16,6 +16,6 @@ bpacol:the-ticket-that-exploded-7 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A6d ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First English. Signed by Burroughs, inscribed \"For Brad\".  I obtained this item from Red Stodolsky of Baroque Books in Hollywood in the late Eighties; I remember Red smiling gnomically when he handed it to me, as if he'd arranged to get it inscribed for me, but I have no real proof that that was the case. Slight tear and rubbing on spine of dust jacket." ] .
 

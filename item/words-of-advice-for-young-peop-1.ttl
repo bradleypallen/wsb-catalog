@@ -16,6 +16,6 @@ bpacol:words-of-advice-for-young-peop-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A79 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Number 5 of 250. Signed by the photographer, Michael Monfort." ] .
 

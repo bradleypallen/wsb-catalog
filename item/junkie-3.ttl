@@ -16,6 +16,6 @@ bpacol:junkie-3 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A1b ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First English. In custom clamshell case." ] .
 

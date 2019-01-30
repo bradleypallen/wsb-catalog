@@ -16,6 +16,6 @@ bpacol:the-invisible-generation-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C146 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First edition thus. 11 3/8\" x 17\", offset-printed on recto only." ] .
 

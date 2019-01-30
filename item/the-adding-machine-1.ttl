@@ -16,6 +16,6 @@ bpacol:the-adding-machine-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A58a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Per the London bookseller Any Amount of Books: \"From the working library of novelist Angela Carter (1940 - 1992) with her posthumous bookplate. This small, attractive bookplate reads 'From the Library of Angela Carter' and was designed by Sebastian Carter of the Rampant Lions Press and was authorised by the executors of her estate, from whom we bought the major part of her considerable collection. Fine in fine dust wrapper.\"" ] .
 

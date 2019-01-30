@@ -15,6 +15,6 @@ bpacol:dinner-at-pat-s-a-conversation-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Vale, with two color photos (\"WSB\" and \"WSB Room\", also signed by Vale) laid in." ] .
 

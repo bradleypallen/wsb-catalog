@@ -16,6 +16,6 @@ bpacol:the-cat-inside-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A60a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and Gysin, number XVI of 18 copies bound in vellum with Gysin drawing in gold on the front cover. In custom made box." ] .
 

@@ -16,6 +16,6 @@ bpacol:white-subway-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A30 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In wrappers with several small scrapes and spots." ] .
 

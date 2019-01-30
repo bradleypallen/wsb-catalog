@@ -16,6 +16,6 @@ bpacol:fruit-cup-0-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C230 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

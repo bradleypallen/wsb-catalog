@@ -15,6 +15,6 @@ bpacol:kerouac-friends-a-beat-gen-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by the author and the following Beat Generation figures: Ted Joans, Herbert Hunke, Carl Solomon, Jack Micheline, Diane di Prima, Gregory Corso and Allen Ginsberg." ] .
 

@@ -16,6 +16,6 @@ bpacol:the-seven-deadly-sins-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B18a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and numbered by Burroughs, 43 of 150. Leather bound, with shotgun pellet-perforated wood piece mounted on front cover. With shipping carton." ] .
 

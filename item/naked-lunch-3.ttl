@@ -16,6 +16,6 @@ bpacol:naked-lunch-3 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A2j ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Signed limited 25th anniversary edition. Signed and numbered by Burroughs, 38 of 500. In slip case without dust jacket as issued." ] .
 

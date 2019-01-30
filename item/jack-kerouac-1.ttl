@@ -16,6 +16,6 @@ bpacol:jack-kerouac-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A25 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs at contribution." ] .
 

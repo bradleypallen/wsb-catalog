@@ -16,6 +16,6 @@ bpacol:the-yage-letters-redux-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A8e ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Second printing." ] .
 

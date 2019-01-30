@@ -16,6 +16,6 @@ bpacol:apocalypse-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G35a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Dust jacket yellowing around edges. Hardbound." ] .
 

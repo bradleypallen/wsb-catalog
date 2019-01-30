@@ -16,6 +16,6 @@ bpacol:ghost-of-chance-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A66a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and George Condo, the illustrator. Unnumbered, one of 160, in slipcase." ] .
 

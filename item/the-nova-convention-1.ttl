@@ -16,6 +16,6 @@ bpacol:the-nova-convention-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G62 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Inscribed by James Grauerholz 'For Brad Morrow \"You shoulda been there!\" James Grauerholz'." ] .
 

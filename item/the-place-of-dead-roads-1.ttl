@@ -16,6 +16,6 @@ bpacol:the-place-of-dead-roads-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A56a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and numbered by Burroughs, 176 of 300. In slip case without dust jacket as issued." ] .
 

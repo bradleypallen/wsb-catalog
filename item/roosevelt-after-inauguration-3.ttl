@@ -16,6 +16,6 @@ bpacol:roosevelt-after-inauguration-3 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A43 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First edition thus in wrappers. Reprint in wrappers, with \"Sects and Death\", \"The Whole Tamale\", and \"When Did I Stop Wanting To Be President?\"" ] .
 

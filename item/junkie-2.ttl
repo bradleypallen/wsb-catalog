@@ -16,6 +16,6 @@ bpacol:junkie-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A1a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, dated \"Nov. 6, 1985\". Yellowing and fragile, bookseller's sticker on inside front cover." ] .
 

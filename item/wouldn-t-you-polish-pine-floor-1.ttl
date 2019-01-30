@@ -16,6 +16,6 @@ bpacol:wouldn-t-you-polish-pine-floor-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A45 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, lettered B of 26. Broadside, 10x13\", in \"16 Broadsides\" from Walker Art Center Reading Series 1979-1980, Minneapolis, Minnesota. All 16 in complete set. In clamshell box." ] .
 

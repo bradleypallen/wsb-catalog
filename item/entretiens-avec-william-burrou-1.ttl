@@ -16,6 +16,6 @@ bpacol:entretiens-avec-william-burrou-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H9a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Inscribed by Burroughs to the dealer and proprietor of Am Here Books, Richard Aaron:  \"For Richard Aaron, William Burroughs.\"" ] .
 

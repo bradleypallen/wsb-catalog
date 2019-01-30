@@ -16,6 +16,6 @@ bpacol:letter-out-of-nowhere-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G30 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Per James Musser: \"Single sheet (done in the style of a letter) printing a cut-up by Burroughs of a Harris text.  Enclosed in a mailing envelope.  Slightly darkened from age, else fine (trivial wear to envelope).\"" ] .
 

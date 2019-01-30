@@ -16,6 +16,6 @@ bpacol:collecting-william-s-burrough-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I11a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Compiled by Eric C. Shoaf. Signed by Shoaf, number 40 of 174 numbered copies." ] .
 

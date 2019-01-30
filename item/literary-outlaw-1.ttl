@@ -16,6 +16,6 @@ bpacol:literary-outlaw-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H33a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

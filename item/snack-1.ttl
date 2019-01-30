@@ -16,6 +16,6 @@ bpacol:snack-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A32 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

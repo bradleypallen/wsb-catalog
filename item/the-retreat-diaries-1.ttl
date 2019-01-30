@@ -16,6 +16,6 @@ bpacol:the-retreat-diaries-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A35 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and lettered by Burroughs, I (or possibly L?) of 26. As issued in brown paper envelope with cutaway section exposing red-on-white image of Burroughs, on front wrapper, with Burroughs' lettering for title on front wrapper." ] .
 

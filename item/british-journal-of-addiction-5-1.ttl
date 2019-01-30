@@ -16,6 +16,6 @@ bpacol:british-journal-of-addiction-5-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C3 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Offprint of Burroughs' article \"Letter From A Master Addict To Dangerous Drugs.\" Limited to 50 copies. Signed by Burroughs, inscribed to Nelson Lyon \"For Nelson, William S. Burroughs October 20, 1992.\" With postmarked envelope with William Burroughs Communications return address." ] .
 

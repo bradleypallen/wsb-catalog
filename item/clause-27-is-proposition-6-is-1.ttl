@@ -16,6 +16,6 @@ bpacol:clause-27-is-proposition-6-is-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A63 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs \"William S. Burroughs 1/23/1997\". Year of publication approximate per Shoaf and Schottlaender." ] .
 

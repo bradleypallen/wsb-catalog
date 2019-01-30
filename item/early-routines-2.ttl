@@ -16,6 +16,6 @@ bpacol:early-routines-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A48a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, numbered 2 of 125, in rice paper dust jacket." ] .
 

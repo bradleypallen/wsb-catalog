@@ -16,6 +16,6 @@ bpacol:contemporary-literary-censorsh-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I22 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Critical study by Michael Barry Goodman. Signed by the author." ] .
 

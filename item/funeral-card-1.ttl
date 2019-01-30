@@ -16,6 +16,6 @@ bpacol:funeral-card-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G97 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Item from Schottlaender G97. The funeral card from the memorial service held in Lawrence, KS on August 6th, 1997." ] .
 

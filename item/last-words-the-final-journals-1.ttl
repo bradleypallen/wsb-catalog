@@ -16,6 +16,6 @@ bpacol:last-words-the-final-journals-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H10a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

@@ -16,6 +16,6 @@ bpacol:the-letters-of-william-s-burr-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H11a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Proof copy, with publisher's letter to reviewers laid in." ] .
 

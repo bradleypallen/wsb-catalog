@@ -15,6 +15,6 @@ bpacol:bloom-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First edition. Staplebound mimeograph. Per Brian Cassidy: \"Scarce book from John Sinclair's Detroit press. Ka illustrates erotic works by Allen Ginsberg, Whitman, William S. Burroughs, Corso, Gary Snyder, Kerouac, Tuli Kupferberg, and others. ... From an edition of 500 copies ... OCLC locates only 5 copies, almost all in Michigan. ... not in  Morgan, Maynard & Miles, or McNeil.\" Also not in Schottlaender." ] .
 

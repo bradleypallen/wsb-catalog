@@ -16,6 +16,6 @@ bpacol:the-travel-agency-is-on-fire-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A82 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Alex Wermer-Colan, ed. (Lost and Found: The CUNY Poetics Document Initiative; Ser. 5, No. 2) Staplebound." ] .
 

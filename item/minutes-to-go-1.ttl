@@ -16,6 +16,6 @@ bpacol:minutes-to-go-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A4a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Slightly soiled wrappers with wear on spine." ] .
 

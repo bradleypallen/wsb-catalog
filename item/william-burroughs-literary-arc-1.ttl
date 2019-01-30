@@ -16,6 +16,6 @@ bpacol:william-burroughs-literary-arc-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I4 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. An excellent description of and background to the sale of the Burroughs Archive to the New York Public Library." ] .
 

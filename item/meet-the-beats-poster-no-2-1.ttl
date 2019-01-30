@@ -16,6 +16,6 @@ bpacol:meet-the-beats-poster-no-2-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G22 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Unsigned print of Robert Crumb caricature of Burroughs. In museum-quality matte and frame." ] .
 

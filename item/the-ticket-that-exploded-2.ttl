@@ -16,6 +16,6 @@ bpacol:the-ticket-that-exploded-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A6a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, inscribed \"For Ralph\", without dust jacket." ] .
 

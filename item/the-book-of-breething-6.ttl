@@ -16,6 +16,6 @@ bpacol:the-book-of-breething-6 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A31c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Second American, trade edition. Without dust jacket as issued." ] .
 

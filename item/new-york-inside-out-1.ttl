@@ -16,6 +16,6 @@ bpacol:new-york-inside-out-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G92 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

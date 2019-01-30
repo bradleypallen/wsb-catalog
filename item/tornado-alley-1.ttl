@@ -16,6 +16,6 @@ bpacol:tornado-alley-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A65 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. In wrappers." ] .
 

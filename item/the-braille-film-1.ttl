@@ -16,6 +16,6 @@ bpacol:the-braille-film-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G94 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "" ] .
 

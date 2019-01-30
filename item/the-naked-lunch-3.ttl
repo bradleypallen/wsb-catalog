@@ -16,6 +16,6 @@ bpacol:the-naked-lunch-3 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A2d ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First English. An advance copy in the form of unbound signatures, uncut. Fingermarks, slightly soiled." ] .
 

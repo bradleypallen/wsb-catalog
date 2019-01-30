@@ -16,6 +16,6 @@ bpacol:the-best-of-william-burroughs-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E3 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Contains booklet." ] .
 

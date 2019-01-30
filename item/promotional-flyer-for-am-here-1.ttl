@@ -16,6 +16,6 @@ bpacol:promotional-flyer-for-am-here-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G61 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Fascimile of an untitled Burroughs manuscript page, revised text appearing later as \"Seeing Red\" in Exterminator!  Printed on the verso of a promotional announcement for Am Here Books, one of 70 printed. Folded and sealed with a Fluxus stamp as issued." ] .
 

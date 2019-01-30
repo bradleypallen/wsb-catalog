@@ -16,6 +16,6 @@ bpacol:taking-shots-the-photography-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B30 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Edited by Patricia Allmer and John Sears. Produced for an exhibition of Burroughs' photographic work in 2014 at The Photographers' Gallery in London." ] .
 

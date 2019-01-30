@@ -16,6 +16,6 @@ bpacol:the-priest-they-called-him-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E22 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First on CD." ] .
 

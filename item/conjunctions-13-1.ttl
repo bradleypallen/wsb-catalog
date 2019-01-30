@@ -16,6 +16,6 @@ bpacol:conjunctions-13-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:C594 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Contains \"Christ and The Museum of Extinct Species\". In wrappers." ] .
 

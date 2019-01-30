@@ -15,6 +15,6 @@ bpacol:literary-vision-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Perfect-bound brochure accompanying showing of painting by noted literary figures, including Burroughs and Gysin, at Jack Tilton Gallery, New York. With excerpts from Grauerholz's essay \"On Burroughs' Art\"." ] .
 

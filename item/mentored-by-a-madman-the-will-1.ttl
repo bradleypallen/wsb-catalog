@@ -15,6 +15,6 @@ bpacol:mentored-by-a-madman-the-will-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Second. Hardbound without wrappers." ] .
 

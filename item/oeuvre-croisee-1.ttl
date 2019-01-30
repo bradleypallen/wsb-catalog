@@ -16,6 +16,6 @@ bpacol:oeuvre-croisee-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A36a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First French. The true first edition of \"The Third Mind.\" Signed by Brion Gysin, inscribed \"with best wishes Brion Gysin Paris 15 aug 81\"." ] .
 

@@ -16,6 +16,6 @@ bpacol:burroughs-live-the-collected-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H7 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First.  Edited by Sylvere Lotringer." ] .
 

@@ -16,6 +16,6 @@ bpacol:letters-to-allen-ginsberg-1953-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H12a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and Allen Ginsberg, number 18 of 100 of a bilingual French-English version. In clear acetate dust jacket with some damage to the upper rear edge." ] .
 

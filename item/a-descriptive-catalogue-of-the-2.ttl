@@ -16,6 +16,6 @@ bpacol:a-descriptive-catalogue-of-the-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I6 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Signed by Burroughs, Brion Gysin and Miles. Signed limited edition of 226, this one unlettered and unnumbered. A presentation copy from Brion Gysin to Richard and Lilia Aaron. This copy has a full-page calligraphic drawing by Gysin (similar in form to the one numbered \"iv\" on the cover of the catalog) on the recto of the leaf before the title page. Signed by Gysin and inscribed \"for Lilia + Richard with love.\" In acetate dust jacket." ] .
 

@@ -16,6 +16,6 @@ bpacol:break-through-in-grey-room-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:E5b ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Burroughs reading with support from Ian Sommerville and Brion Gysin.  CD." ] .
 

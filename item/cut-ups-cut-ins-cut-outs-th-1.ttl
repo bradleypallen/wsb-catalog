@@ -16,6 +16,6 @@ bpacol:cut-ups-cut-ins-cut-outs-th-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B29 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

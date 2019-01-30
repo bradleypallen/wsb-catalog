@@ -16,6 +16,6 @@ bpacol:le-ticket-qui-explosa-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:D123 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First French. Wrappers yellowed on spine." ] .
 

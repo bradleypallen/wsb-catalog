@@ -16,6 +16,6 @@ bpacol:ports-of-entry-williams-burro-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B23a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Produced for a 1996 exhibition at LACMA. Mint in original shrinkwrap." ] .
 

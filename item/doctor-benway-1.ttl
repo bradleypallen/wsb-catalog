@@ -16,6 +16,6 @@ bpacol:doctor-benway-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A42 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, number 135 of 150. Slight yellowing to spine and top of dust jacket." ] .
 

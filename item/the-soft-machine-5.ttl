@@ -16,6 +16,6 @@ bpacol:the-soft-machine-5 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A5e ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First edition thus." ] .
 

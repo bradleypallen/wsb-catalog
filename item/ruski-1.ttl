@@ -16,6 +16,6 @@ bpacol:ruski-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A57a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs, numbered 314 of 500." ] .
 

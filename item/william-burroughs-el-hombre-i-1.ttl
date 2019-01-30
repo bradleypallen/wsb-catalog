@@ -16,6 +16,6 @@ bpacol:william-burroughs-el-hombre-i-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H32b ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First American edition." ] .
 

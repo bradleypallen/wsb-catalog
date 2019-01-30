@@ -16,6 +16,6 @@ bpacol:william-s-burroughs-an-annot-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:I3 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. A bibliography compiled by Michael B. Goodman of SUNY, Stony Brook, predating the publication of Maynard and Miles. Without dust jacket as issued." ] .
 

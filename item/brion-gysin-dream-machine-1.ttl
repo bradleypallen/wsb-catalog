@@ -15,6 +15,6 @@ bpacol:brion-gysin-dream-machine-1 a bf:Item,
             rdfs:label "Bradley P. Allen" ;
             bf:role "collector" ] ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. A survey of Brion Gysin's art and influence, issued as part of the New Museum's Gysin exhibition in New York held in 2010. Includes a contribution by James Grauerholz titled \"Mr Burroughs Mr Gysin\" as well as a variant of his essay \"On Burroughs' Art\", originally included in Schottlaender B4 (here with title misspelled as \"On Burroughs's [sic] Art\".) Includes materials and instructions for the construction of a Dream Machine. Hardbound." ] .
 

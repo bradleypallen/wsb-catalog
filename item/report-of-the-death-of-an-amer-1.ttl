@@ -16,6 +16,6 @@ bpacol:report-of-the-death-of-an-amer-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G1 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Broadside, numbered 68 of 100." ] .
 

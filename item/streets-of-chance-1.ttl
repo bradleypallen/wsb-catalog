@@ -16,6 +16,6 @@ bpacol:streets-of-chance-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A50 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and illustrator Howard Buchwald, number 121 of 160. Beautifully bound, without dust jacket as issued." ] .
 

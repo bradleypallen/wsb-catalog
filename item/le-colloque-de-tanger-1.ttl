@@ -16,6 +16,6 @@ bpacol:le-colloque-de-tanger-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G45a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Ten black and white photos of Burroughs and Brion Gysin taken during the Colloque de Tanger symposium. Signed by Burroughs, Gysin, Francois Legarde (the photographer) and Gerard-Georges Lemaire (the symposium's organizer.) Number 19 of 75. Tear and wear to lower left corner of printed folder." ] .
 

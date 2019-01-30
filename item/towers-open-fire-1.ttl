@@ -16,6 +16,6 @@ bpacol:towers-open-fire-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:F22 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "Films featuring Burroughs and his work by Antony Balch, with the involvement of Ian Sommerville and Brion Gysin. VHS." ] .
 

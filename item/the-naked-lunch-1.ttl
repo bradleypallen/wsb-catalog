@@ -16,6 +16,6 @@ bpacol:the-naked-lunch-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A2a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs. With slight chipping and tearing on dust jacket spine." ] .
 

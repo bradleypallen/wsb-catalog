@@ -16,6 +16,6 @@ bpacol:letters-to-allen-ginsberg-1953-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H12c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First American in wrappers. Personal copy of Peter Orlovsky, signed by Orlovsky and inscribed by Burroughs \"For Peter all the best Letters Love William S. Burroughs June 7, 1982.\"  Slight pencil mark on front cover." ] .
 

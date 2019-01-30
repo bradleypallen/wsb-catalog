@@ -16,6 +16,6 @@ bpacol:the-three-minds-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G46 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. A triptych of photographs made by Francois Legarde, with a photo of Burroughs on the right panel, Brion Gysin on the left, and a superimposed image of the two in the center. With folded insert, signed by Burroughs, Gysin and Legarde, number 17 of 35. In orange cardboard mounting." ] .
 

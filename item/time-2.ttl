@@ -16,6 +16,6 @@ bpacol:time-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A15a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed by Burroughs and Brion Gysin, who contributed four drawings. Number 22 of 100, some yellowing and wear on spine." ] .
 

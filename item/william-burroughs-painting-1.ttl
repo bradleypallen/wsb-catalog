@@ -16,6 +16,6 @@ bpacol:william-burroughs-painting-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:B3 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Brochure accompanying exhibitions in Amsterdam and London. With reproductions of 16 paintings and \"On Burroughs' Art\", an essay by James Grauerholz, including explication of each piece." ] .
 

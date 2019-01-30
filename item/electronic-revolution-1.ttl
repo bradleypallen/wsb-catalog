@@ -16,6 +16,6 @@ bpacol:electronic-revolution-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A24a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Includes four prints signed by Brion Gysin and publisher's prepublication announcement (Maynard and Miles F27) laid in. Inscribed by Burroughs \"for Philip Kaplan Williams Burroughs.\" Number 10 of 50. In slipcase with numbered label." ] .
 

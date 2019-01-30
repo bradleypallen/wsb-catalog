@@ -16,6 +16,6 @@ bpacol:letters-to-allen-ginsburg-1953-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:H12c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First American. Slight pencil mark on lower left front of dust jacket. With xerox of publisher's press release laid in." ] .
 

@@ -16,6 +16,6 @@ bpacol:sidetripping-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G26a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First." ] .
 

@@ -16,6 +16,6 @@ bpacol:brion-gysin-let-the-mice-in-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:G31 ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Dust jacket slightly worn and rubbed in places." ] .
 

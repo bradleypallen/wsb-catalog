@@ -16,6 +16,6 @@ bpacol:the-soft-machine-3 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A5c ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First American paperback. Owner's signature, some yellowing." ] .
 

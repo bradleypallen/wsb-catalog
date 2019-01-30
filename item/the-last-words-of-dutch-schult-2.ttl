@@ -16,6 +16,6 @@ bpacol:the-last-words-of-dutch-schult-2 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A22a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Signed and numbered by Burroughs, 13 of 100. With tissue wraps as issued." ] .
 

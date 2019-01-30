@@ -16,6 +16,6 @@ bpacol:burroughs-pelieu-kaufman-1 a bf:Item,
             bf:role "collector" ] ;
     bf:itemOf abri:A18a ;
     bf:note [ a bf:Note,
-                arm:SubjectNote ;
+                arm:DescriptiveNote ;
             rdf:value "First. Number 33 of 40. With uncut pages and with signed and numbered lithograph by Jean Helion laid in." ] .
 
