@@ -6,7 +6,7 @@ class WSBCatalog():
 
     def __init__(self, file='data/wsb-catalog.csv'):
         self._citation_schemes = { 'schottlaender/4.0/': 'Schottlaender ', 'maynard-and-miles/': 'Maynard & Miles ', 'shoaf/': 'Shoaf ' }
-        self._items = pd.read_csv('data/wsb-catalog.csv')
+        self._items = pd.read_csv(file)
         self._items = self._items.fillna('')
         self._add_missing_identifiers()
         self._add_missing_thumbnails()
@@ -74,7 +74,7 @@ class WSBCatalog():
                 i = 1
                 slug = slugify('{:.30}'.format(titles[idx]))
                 new_id = '{}-{:d}'.format(slug, i)
-                while new_id in ids:
+                while new_id in ids or new_id in new_ids:
                     i += 1
                     new_id = '{}-{:d}'.format(slug, i)
                 new_ids.append(new_id)
